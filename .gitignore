@@ -1,0 +1,9 @@
+**/build/
+**/dist/
+**/nbproject/Makefile-*
+**/nbproject/Package-*
+**/nbproject/private/
+Icons/
+**/.generated_files/
+*.rej
+**/IC 1_LX4004NoAkm/

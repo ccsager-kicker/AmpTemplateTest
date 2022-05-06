@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="f2" displayName="AmpDefs" projectFiles="true">
+          <logicalFolder name="f1" displayName="system_config" projectFiles="true">
+            <logicalFolder name="f1" displayName="default" projectFiles="true">
+              <itemPath>../src/AmpDefs/system_config/default/system_config.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/AmpDefs/system_config/system_definitions.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/AmpDefs/AmpDefs.h</itemPath>
+          <itemPath>../src/AmpDefs/FirmwareVersion.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Channels" displayName="Channels" projectFiles="true">
+          <itemPath>../src/Channels/ChannelFunctions.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="GPIO" displayName="GPIO" projectFiles="true">
+          <itemPath>../src/GPIO/PinDefinitions.h</itemPath>
+          <itemPath>../src/GPIO/PinFunctions.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Harmony" displayName="Harmony" projectFiles="true">
+          <logicalFolder name="framework" displayName="framework" projectFiles="true">
+            <logicalFolder name="usb" displayName="usb" projectFiles="true">
+              <itemPath>../src/Harmony/framework/usb/usb_chapter_9.h</itemPath>
+              <itemPath>../src/Harmony/framework/usb/usb_common.h</itemPath>
+              <itemPath>../src/Harmony/framework/usb/usb_device.h</itemPath>
+              <itemPath>../src/Harmony/framework/usb/usb_device_hid.h</itemPath>
+              <itemPath>../src/Harmony/framework/usb/usb_hid.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="Main" displayName="Main" projectFiles="true">
+          <itemPath>../src/Main/Main.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="McuDrivers" displayName="McuDrivers" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="Save" projectFiles="true">
+          <itemPath>../src/save/ISaveSetting.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="SignalProcessing" projectFiles="true">
+          <logicalFolder name="f1" displayName="GeneratedConfig" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="usb" displayName="usb" projectFiles="true">
+          <itemPath>../src/usb/usb.h</itemPath>
+          <itemPath>../src/usb/usb_private.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="f2" displayName="AmpDefs" projectFiles="true">
+          <logicalFolder name="system_config"
+                         displayName="system_config"
+                         projectFiles="true">
+            <logicalFolder name="default" displayName="default" projectFiles="true">
+            </logicalFolder>
+            <itemPath>../src/AmpDefs/system_config/system_exceptions.c</itemPath>
+            <itemPath>../src/AmpDefs/system_config/system_init.c</itemPath>
+            <itemPath>../src/AmpDefs/system_config/system_tasks.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="Channels" displayName="Channels" projectFiles="true">
+          <itemPath>../src/Channels/ChannelFunctions.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="GPIO" displayName="GPIO" projectFiles="true">
+          <itemPath>../src/GPIO/PinFunctions.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Harmony" displayName="Harmony" projectFiles="true">
+          <logicalFolder name="framework" displayName="framework" projectFiles="true">
+            <logicalFolder name="driver" displayName="driver" projectFiles="true">
+              <logicalFolder name="tmr" displayName="tmr" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
+                    <itemPath>../src/Harmony/framework/driver/tmr/src/dynamic/drv_tmr.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="usb" displayName="usb" projectFiles="true">
+                <logicalFolder name="usbfs" displayName="usbfs" projectFiles="true">
+                  <logicalFolder name="src" displayName="src" projectFiles="true">
+                    <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
+                      <itemPath>../src/Harmony/framework/driver/usb/usbfs/src/dynamic/drv_usbfs.c</itemPath>
+                      <itemPath>../src/Harmony/framework/driver/usb/usbfs/src/dynamic/drv_usbfs_device.c</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="usbhs" displayName="usbhs" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="osal" displayName="osal" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+              <logicalFolder name="adc" displayName="adc" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="adchs" displayName="adchs" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="adcp" displayName="adcp" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="bmx" displayName="bmx" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="can" displayName="can" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="cmp" displayName="cmp" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ctmu" displayName="ctmu" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ctr" displayName="ctr" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ddr" displayName="ddr" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="devcon" displayName="devcon" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="dma" displayName="dma" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="dmt" displayName="dmt" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ebi" displayName="ebi" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="eth" displayName="eth" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="glcd" displayName="glcd" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ic" displayName="ic" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="int" displayName="int" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="mcpwm" displayName="mcpwm" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="oc" displayName="oc" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="osc" displayName="osc" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="pcache" displayName="pcache" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="pmp" displayName="pmp" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ports" displayName="ports" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="power" displayName="power" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ptg" displayName="ptg" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="reset" displayName="reset" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="rtcc" displayName="rtcc" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="sb" displayName="sb" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="spi" displayName="spi" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="sqi" displayName="sqi" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="tmr" displayName="tmr" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="usb" displayName="usb" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="usbhs" displayName="usbhs" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="wdt" displayName="wdt" projectFiles="true">
+                <logicalFolder name="processor" displayName="processor" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="system" displayName="system" projectFiles="true">
+              <logicalFolder name="clk" displayName="clk" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/clk/src/sys_clk_pic32mm.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="common" displayName="common" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="debug" displayName="debug" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="devcon" displayName="devcon" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/devcon/src/sys_devcon.c</itemPath>
+                  <itemPath>../src/Harmony/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="fs" displayName="fs" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="int" displayName="int" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/int/src/sys_int_pic32.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="ports" displayName="ports" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/ports/src/sys_ports_static.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="reset" displayName="reset" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/reset/src/sys_reset.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="tmr" displayName="tmr" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/system/tmr/src/sys_tmr.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="wdt" displayName="wdt" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="usb" displayName="usb" projectFiles="true">
+              <logicalFolder name="src" displayName="src" projectFiles="true">
+                <logicalFolder name="dynamic" displayName="dynamic" projectFiles="true">
+                  <itemPath>../src/Harmony/framework/usb/src/dynamic/usb_device.c</itemPath>
+                  <itemPath>../src/Harmony/framework/usb/src/dynamic/usb_device_hid.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="Main" displayName="Main" projectFiles="true">
+          <itemPath>../src/Main/Main_Adc.c</itemPath>
+          <itemPath>../src/Main/Main_Channels.c</itemPath>
+          <itemPath>../src/Main/Main_DSP.c</itemPath>
+          <itemPath>../src/Main/Main_GPIO.c</itemPath>
+          <itemPath>../src/Main/Main_Protections.c</itemPath>
+          <itemPath>../src/Main/Main_PSU.c</itemPath>
+          <itemPath>../src/Main/Main_SDK.c</itemPath>
+          <itemPath>../src/main.c</itemPath>
+          <itemPath>../src/main/Main_SaveSettings.c</itemPath>
+          <itemPath>../src/main/Main_LEDs.c</itemPath>
+          <itemPath>../src/main/Main_RemoteEnable.c</itemPath>
+          <itemPath>../src/main/Main_ClassD.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="McuDrivers" displayName="McuDrivers" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="PowerSupply" projectFiles="true">
+          <itemPath>../src/PowerSupplies/PSU.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="save" displayName="Save" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder name="DSP" displayName="SignalProcessing" projectFiles="true">
+          <logicalFolder name="f1" displayName="ADC" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="DAC" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="DSP" projectFiles="true">
+            <logicalFolder name="SigmaStudio"
+                           displayName="GeneratedConfig"
+                           projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="usb" displayName="usb" projectFiles="true">
+          <itemPath>../src/usb/usb.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../../README.md</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../..</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MM0256GPM064</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>pk4hybrid</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>2.05</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC32MM-GPM-0XX_DFP" vendor="Microchip" version="1.2.31"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../../Embedded_Libraries/KickerUtils/KickerUtils.X"
+                            CT="3"
+                            CN="PIC32"
+                            AC="true"
+                            BL="true"
+                            WD="../../../Embedded_Libraries/KickerUtils/KickerUtils.X"
+                            BC="${MAKE}  -f Makefile CONF=PIC32"
+                            DBC="${MAKE}  -f Makefile CONF=PIC32 TYPE_IMAGE=DEBUG_RUN"
+                            CC="rm -rf &quot;build/PIC32&quot; &quot;dist/PIC32&quot;"
+                            OP="dist/PIC32/production/KickerUtils.X.a"
+                            DOP="dist/PIC32/debug/KickerUtils.X.a"
+                            FL="dist/PIC32/production/KickerUtils.X.a"
+                            PD="dist/PIC32/production/KickerUtils.X."
+                            DD="dist/PIC32/debug/KickerUtils.X.">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../../Embedded_Libraries/KickerSDK/KickerSDK.X"
+                            CT="3"
+                            CN="PIC32"
+                            AC="true"
+                            BL="true"
+                            WD="../../../Embedded_Libraries/KickerSDK/KickerSDK.X"
+                            BC="${MAKE}  -f Makefile CONF=PIC32"
+                            DBC="${MAKE}  -f Makefile CONF=PIC32 TYPE_IMAGE=DEBUG_RUN"
+                            CC="rm -rf &quot;build/PIC32&quot; &quot;dist/PIC32&quot;"
+                            OP="dist/PIC32/production/KickerSDK.X.a"
+                            DOP="dist/PIC32/debug/KickerSDK.X.a"
+                            FL="dist/PIC32/production/KickerSDK.X.a"
+                            PD="dist/PIC32/production/KickerSDK.X."
+                            DD="dist/PIC32/debug/KickerSDK.X.">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="..\..\..\Embedded_Libraries\KickerUtils;..\..\..\Embedded_Libraries\KickerUtils\Converters;..\..\..\Embedded_Libraries\KickerUtils\Interfaces;..\..\..\Embedded_Libraries\KickerUtils\Scheduler;..\..\..\Embedded_Libraries\KickerUtils\Type Definitions;..\..\..\Embedded_Libraries\KickerSDK;..\src;..\src\AmpDefs;..\src\AmpDefs\system_config;..\src\AmpDefs\system_config\default;..\src\Channels;..\src\GPIO;..\src\Harmony\framework;..\src\Main;..\src\McuDrivers;..\src\PowerSupplies;..\src\Save;..\src\SignalProcessing;..\src\SignalProcessing\SigmaStudio;..\src\usb"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value=""/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="true"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <pk4hybrid>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CCP 1" value="false"/>
+        <property key="CCP 2" value="false"/>
+        <property key="CCP 3" value="false"/>
+        <property key="CCP 4" value="false"/>
+        <property key="CCP 5" value="false"/>
+        <property key="CCP 6" value="false"/>
+        <property key="CCP 7" value="false"/>
+        <property key="CCP 8" value="false"/>
+        <property key="CCP 9" value="false"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="CLC" value="true"/>
+        <property key="CMP" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="HLVD" value="true"/>
+        <property key="I2C 1" value="true"/>
+        <property key="I2C 2" value="true"/>
+        <property key="I2C 3" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="REFERENCE CLOCK1" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SPI/I2S 3" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions"
+                  value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack"
+                  value="Press to select which tool pack to use"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value=""/>
+        <property key="communication.interface.jtag" value="2wire"/>
+        <property key="communication.speed" value="${communication.speed.default}"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d03ffff"/>
+        <property key="memories.rww" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoImageName" value="AmpTemplate32b_ptg"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.ledbrightness" value="5"/>
+        <property key="programoptions.pgcconfig" value="pull down"/>
+        <property key="programoptions.pgcresistor.value" value="4.7"/>
+        <property key="programoptions.pgdconfig" value="pull down"/>
+        <property key="programoptions.pgdresistor.value" value="4.7"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="ptgProgramImage" value="true"/>
+        <property key="ptgSendImage" value="true"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value="3.25"/>
+      </pk4hybrid>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,3 @@
+- Define product ID in default/system_config.h. This will be used with mVars.product.productId to pass the product ID to the bootloader.
+- Define product string in system_init.c, variable named sd002
+    - Change the length of the string array to match the length of the string and an additional null terminator character (e.g. "Hello World" would be of size 12).
